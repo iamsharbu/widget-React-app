@@ -1,0 +1,36 @@
+.widget--component {
+    background-color: rgb(242, 245, 248);
+    position: relative;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+}
+
+.widget--title {
+    display: inline-block;
+    height: 10%;
+    font-size: 20px;
+    user-select: none;
+}
+
+.widget--inlineOptions {
+    float: right;
+}
+
+.widget--component .search--component {
+    height: 90%;
+    position: relative;
+}
+
+.collapseTitle {
+    transform: rotate(270deg);
+    transform-origin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.widget--inlineOptions .collapseIcon {
+    top: 10px;
+    position: absolute;
+    left: 15%;
+}

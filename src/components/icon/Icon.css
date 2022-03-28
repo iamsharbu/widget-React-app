@@ -1,0 +1,17 @@
+.icon--container {
+    display: inline;
+    cursor: pointer;
+    margin: 0 5px;
+    position: relative;
+    left: 20%;
+}
+
+.icon--span svg {
+    height: 20px;
+}
+
+.SearchIcon {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
